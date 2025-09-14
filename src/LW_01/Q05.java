@@ -39,6 +39,12 @@ public class Q05 {
         double innerCircleArea= innerCircle.computeArea();
         double area= outerCircleArea-innerCircleArea;
 
-        System.out.println("The shader area: "+area);
+        double outerCircleCircumference = outerCircle.computeCircumference();
+        double innerCircleCircumference = innerCircle.computeCircumference();
+
+        System.out.printf("The shaded area: %.2f\n",area);
+        System.out.printf("The circumference of outer circle: %.2f\n",outerCircleCircumference);
+        System.out.printf("The circumference of inner circle: %.2f",innerCircleCircumference);
+        scanner.close();
     }
 }
