@@ -16,5 +16,3 @@ public class Q_07 {
         System.out.println(formatted);
     }
 }
-
-
